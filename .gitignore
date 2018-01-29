@@ -1,0 +1,6 @@
+**/.DS_Store
+docroot/sites/**
+.gitignore.swp
+sync/**
+private/**
+
