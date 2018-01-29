@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "246942fd8a1443fdd68dbc6930731dc7",
+    "content-hash": "b128cd80d78af9904445ea2641075a6b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -812,6 +812,57 @@
             "homepage": "https://www.drupal.org/project/consumers",
             "support": {
                 "source": "http://cgit.drupalcode.org/consumers"
+            }
+        },
+        {
+            "name": "drupal/oauth2_client",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/oauth2_client",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/oauth2_client-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "076ba113e8d40ffed898371999946e44c2e16ceb"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1489215183",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jaypan",
+                    "homepage": "https://www.drupal.org/user/324696"
+                },
+                {
+                    "name": "dashohoxha",
+                    "homepage": "https://www.drupal.org/user/993752"
+                }
+            ],
+            "description": "Provides OAuth2 client functionality.",
+            "homepage": "https://www.drupal.org/project/oauth2_client",
+            "support": {
+                "source": "http://cgit.drupalcode.org/oauth2_client"
             }
         },
         {
